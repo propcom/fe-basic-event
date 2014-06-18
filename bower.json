@@ -31,10 +31,10 @@
     "license": "Public",
     "homepage": "https://github.com/JamesHooker94/fe-basic-event.git",
 
-    "ignore" : {
+    "ignore" : [
 
     	"/httpdocs/"
-    },
+    ],
 
     "install" : {
 
