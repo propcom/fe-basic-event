@@ -3,16 +3,16 @@
     "name": "fe-basic-event",
     "authors": [
    
-        "Samuel Woodbridge"
+        "James Hooker"
 
     ],
 
     "description": "Basic Event PHP Include",
-    "main": "/httpdocs/",
+    "main": "mainevent.php",
     "repository": {
 
         "type" : "git",
-        "url" : "https://github.com/WsCandy/zRSv2.git"
+        "url" : "https://github.com/JamesHooker94/fe-basic-event.git"
 
     },
 
@@ -29,21 +29,16 @@
     ],
 
     "license": "Public",
-    "homepage": "https://github.com/WsCandy/zRSv2.git",
+    "homepage": "https://github.com/JamesHooker94/fe-basic-event.git",
 
-    "ignore" : [
+    "ignore" : {
 
-        "/sass/",
-        "/css/",
-        "/img/",
-        "/index.html"
-
-    ],
+    	"/httpdocs/"
+    },
 
     "install" : {
 
-        "zRS.js" : "httpdocs/assets/js/lib",
-        "scripts.js" : "httpdocs/assets/js/src"
+        "mainevent.php" : "fuel/app/views/inc"
 
     }
 
