@@ -1,0 +1,50 @@
+{
+
+    "name": "fe-basic-event",
+    "authors": [
+   
+        "Samuel Woodbridge"
+
+    ],
+
+    "description": "Basic Event PHP Include",
+    "main": "/httpdocs/",
+    "repository": {
+
+        "type" : "git",
+        "url" : "https://github.com/WsCandy/zRSv2.git"
+
+    },
+
+    "keywords": [
+
+        "Event",
+        "feed",
+        "php",
+        "Propeller",
+        "propcomm",
+        "propeller",
+        "propcom"
+
+    ],
+
+    "license": "Public",
+    "homepage": "https://github.com/WsCandy/zRSv2.git",
+
+    "ignore" : [
+
+        "/sass/",
+        "/css/",
+        "/img/",
+        "/index.html"
+
+    ],
+
+    "install" : {
+
+        "zRS.js" : "httpdocs/assets/js/lib",
+        "scripts.js" : "httpdocs/assets/js/src"
+
+    }
+
+}
